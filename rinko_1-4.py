@@ -1,0 +1,1 @@
+print([('F'if i % 3 == 0 else '') + ('B' if i % 5 == 0 else '') or i for i in range (1, int(input()) + 1)]) 
